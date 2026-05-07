@@ -25,8 +25,8 @@ For the full reproduction protocol, see [REPRODUCING.md](REPRODUCING.md).
 | XGBoost / LogReg baselines | 1 CPU, 16 GB RAM | < 30 min per dataset |
 | LSTM / Transformer (~100K-400K params) | 1 GPU, 16 GB | ~1-2 h per dataset |
 | BERT / RoBERTa fine-tune (LoRA) | 1 GPU, 24 GB | order of hours per dataset |
-| Llama-3.1-8B fine-tune (LoRA, 4-bit) | 1 GPU H100 / A100 80GB | order of hours per dataset |
-| Llama-3.1-70B fine-tune (Parity only, App. results) | 1 GPU H100 / A100 80GB (4-bit) | overnight |
+| Llama-3.1-8B fine-tune (LoRA, 4-bit) | 1 GPU H100 80GB | order of hours per dataset |
+| Llama-3.1-70B fine-tune (Parity only, App. results) | 1 GPU H100 80GB (4-bit) | overnight |
 
 Wall-clock figures are approximate; paper figures average 3 seeds (9550, 9551, 9552).
 
