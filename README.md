@@ -1,6 +1,6 @@
-# Sequential Learning or Shortcut Exploitation? Reproducibility code
+# Do Large Language Models Exploit Decisive Sequential Information? Reproducibility code
 
-Code and data accompanying the NeurIPS 2026 submission *Sequential Learning or Shortcut Exploitation? A Diagnostic Framework for Sequence Models*.
+Code and data accompanying the NeurIPS 2026 submission *Do Large Language Models Exploit Decisive Sequential Information?*.
 
 The paper introduces a synthetic letter-sequence framework with three task variants (Tricky Deterministic, Tricky Random, Parity), evaluates the model families in Table 2 of the paper (XGBoost, LSTM, Transformer encoder, BiLSTM-Transformer hybrid, BERT-base, RoBERTa-large, Llama-3.2-1B, Llama-3.1-8B, Llama-3.1-70B [parity only], Qwen3-4B-Think, Qwen2.5-14B), and audits whether sequence models recover the latent rule or solve the task via lag-aware pair counts.
 
